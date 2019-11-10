@@ -111,8 +111,8 @@ func (sm *StateMachine) ToGraph() string {
 
 // State returns the current state.
 func (sm *StateMachine) State(ctx context.Context) (State, error) {
-	sm.stateMutex.Lock()
-	defer sm.stateMutex.Unlock()
+	// sm.stateMutex.Lock()
+	// defer sm.stateMutex.Unlock()
 	return sm.stateAccessor(ctx)
 }
 
