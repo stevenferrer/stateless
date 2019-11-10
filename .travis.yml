@@ -1,7 +1,7 @@
 
 
 language: go
-go_import_path: github.com/qmuntal/stateless
+go_import_path: github.com/stevenferrer/stateless
 
 go:
   - 1.11.x
